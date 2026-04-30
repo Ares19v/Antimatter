@@ -1,0 +1,66 @@
+# ============================================================
+#  ANTIMATTER — .gitignore
+# ============================================================
+
+# ------ Node.js ------
+node_modules/
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# ------ Logs ------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ------ Environment ------
+.env
+.env.*
+!.env.example
+
+# ------ Python ------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.pytest_cache/
+
+# ------ Operating System ------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ------ IDE & Editor ------
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+*~
+
+# ------ Build Artifacts ------
+ui/dist/
+ui/build/
+*.vsix
+ide-extension/dist/
+
+# ------ Misc ------
+*.local
+.eslintcache

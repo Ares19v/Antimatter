@@ -1,0 +1,39 @@
+{
+  "name": "antimatter-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to scan and remove unnecessary files and heavy folders from projects.",
+  "main": "dist/index.js",
+  "bin": {
+    "antimatter": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node src/index.ts",
+    "serve": "ts-node src/server.ts"
+  },
+  "keywords": [
+    "cleaner",
+    "cli",
+    "node_modules",
+    "scanner"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^5.0.0",
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "fast-glob": "^3.3.2",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}

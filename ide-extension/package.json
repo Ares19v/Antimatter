@@ -1,0 +1,70 @@
+{
+  "name": "antimatter-ide",
+  "displayName": "Antimatter: Project Cleaner",
+  "description": "A state-of-the-art native project cleaner for Antigravity IDE and VS Code.",
+  "version": "1.0.0",
+  "publisher": "DevanshTyagi",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevanshTyagi/Antimatter.git"
+  },
+  "keywords": [
+    "clean",
+    "purge",
+    "cache",
+    "node_modules",
+    "junk"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Formatters",
+    "Machine Learning"
+  ],
+  "activationEvents": [
+    "onCommand:antimatter.clean"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "antimatter.clean",
+        "title": "Antimatter: Clean Project"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "antimatter.clean",
+          "when": "explorerResourceIsFolder",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

@@ -13,7 +13,7 @@
 *CLI · Local Web App · IDE Extension — powered by a single TypeScript engine.*
 
 [![CI](https://github.com/Ares19v/Antimatter/actions/workflows/ci.yml/badge.svg)](https://github.com/Ares19v/Antimatter/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](LICENSE)
+
 [![Node: 20+](https://img.shields.io/badge/Node.js-20%2B-cyan)](https://nodejs.org)
 [![TypeScript](https://img.shields.io/badge/Built%20With-TypeScript-cyan)](https://www.typescriptlang.org)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-cyan)]()
@@ -185,6 +185,7 @@ CI Pipeline
 
 ---
 
-## License
-
-[MIT](LICENSE) © 2026 Devansh Tyagi
+---
+<p align="center">
+  Made by Devansh Tyagi @ 2026
+</p>

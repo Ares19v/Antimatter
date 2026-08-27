@@ -1,7 +1,7 @@
 {
   "name": "antimatter-cli",
   "version": "1.0.0",
-  "description": "A CLI tool to scan and remove unnecessary files and heavy folders from projects.",
+  "description": "High-speed developer workspace cleanup utility and disk space reclamation engine for heavy caches and build artifacts.",
   "main": "dist/index.js",
   "bin": {
     "antimatter": "./dist/index.js"

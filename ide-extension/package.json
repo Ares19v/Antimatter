@@ -1,7 +1,7 @@
 {
   "name": "antimatter-ide",
   "displayName": "Antimatter: Project Cleaner",
-  "description": "A state-of-the-art native project cleaner for Antigravity IDE and VS Code.",
+  "description": "High-speed developer workspace cleanup utility and disk space reclamation engine for heavy caches and build artifacts.",
   "version": "1.0.0",
   "publisher": "DevanshTyagi",
   "icon": "icon.png",

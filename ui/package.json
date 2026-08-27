@@ -27,5 +27,6 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.2",
     "vite": "^8.0.10"
-  }
+  },
+  "description": "High-speed developer workspace cleanup utility and disk space reclamation engine for heavy caches and build artifacts."
 }

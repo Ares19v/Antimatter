@@ -32,7 +32,7 @@ Unlike a basic rm -rf script, Antimatter ships as three distinct, fully-featured
 
 ## Platform Architecture
 
-Antimatter is the only project cleaner that offers **three completely separate, production-grade interfaces** over one shared engine:
+Antimatter is the only project cleaner that offers **three completely separate, high-performance interfaces** over one shared engine:
 
 ```
                     ┌─────────────────────────────────────────┐

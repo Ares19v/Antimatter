@@ -54,6 +54,12 @@ Antimatter is the only project cleaner that offers **three completely separate, 
 ### 1 · Power-User CLI
 > *Zero dependencies on the GUI. Runs anywhere. Installs globally.*
 
+<p align="center">
+  <img src="assets/Antimatter_1.png" alt="Antimatter Interactive CLI Interface" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+  <br>
+  <em>Antimatter CLI: Interactive terminal workflow, project path prompt, and fast disk space recovery scanner.</em>
+</p>
+
 A fully interactive terminal workflow built with `commander` and `@inquirer/prompts`. The scanner uses `fast-glob` with symlink protection and permission-error suppression so it never crashes on restricted system directories.
 
 ```bash
